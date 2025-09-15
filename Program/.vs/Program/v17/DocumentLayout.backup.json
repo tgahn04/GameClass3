@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tgahn\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\GameClass3\\Program\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\GameClass3\\Program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E326C0FB-B167-4D0C-BF2D-7F252C442B05}|Program.vcxproj|C:\\Users\\tgahn\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\GameClass3\\Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E326C0FB-B167-4D0C-BF2D-7F252C442B05}|Program.vcxproj|C:\\Users\\Administrator\\Desktop\\GameClass3\\Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E326C0FB-B167-4D0C-BF2D-7F252C442B05}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E326C0FB-B167-4D0C-BF2D-7F252C442B05}|Program.vcxproj|C:\\Users\\Administrator\\Desktop\\GameClass3\\Program\\Consumable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E326C0FB-B167-4D0C-BF2D-7F252C442B05}|Program.vcxproj|solutionrelative:Consumable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E326C0FB-B167-4D0C-BF2D-7F252C442B05}|Program.vcxproj|C:\\Users\\Administrator\\Desktop\\GameClass3\\Program\\Consumable.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E326C0FB-B167-4D0C-BF2D-7F252C442B05}|Program.vcxproj|solutionrelative:Consumable.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +22,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Consumable.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\GameClass3\\Program\\Consumable.cpp",
+              "RelativeDocumentMoniker": "Consumable.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\GameClass3\\Program\\Consumable.cpp",
+              "RelativeToolTip": "Consumable.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-15T10:37:42.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Consumable.h",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\GameClass3\\Program\\Consumable.h",
+              "RelativeDocumentMoniker": "Consumable.h",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\GameClass3\\Program\\Consumable.h",
+              "RelativeToolTip": "Consumable.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-15T10:27:56.078Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cpp",
-              "DocumentMoniker": "C:\\Users\\tgahn\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\GameClass3\\Program\\Program.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\GameClass3\\Program\\Program.cpp",
               "RelativeDocumentMoniker": "Program.cpp",
-              "ToolTip": "C:\\Users\\tgahn\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\GameClass3\\Program\\Program.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\GameClass3\\Program\\Program.cpp",
               "RelativeToolTip": "Program.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-12T08:59:57.77Z",
               "EditorCaption": ""

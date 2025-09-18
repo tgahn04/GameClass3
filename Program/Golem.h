@@ -4,6 +4,7 @@ class Golem : public Monster
 {
 public:
 	Golem();
-	void Describe() override;
+	virtual void Describe() override;
+	virtual ~Golem() override;
 };
 

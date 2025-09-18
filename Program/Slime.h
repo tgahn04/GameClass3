@@ -5,6 +5,7 @@ class Slime : public Monster
 {
 public:
 	Slime(); 
-	void Describe() override;
+	virtual void Describe() override;
+	virtual ~Slime() override;
 };
 

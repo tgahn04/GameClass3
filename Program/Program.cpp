@@ -1,11 +1,31 @@
 ﻿#include "stdafx.h"
-
+#include "Language.h"
 
 template <typename T>
 bool Same(T left, T right)
 {
 	return left == right;
 }
+
+template<>
+bool Same(Language left, Language right)
+{
+	return left.Name() == right.Name();
+}
+
+template<typename T>
+class Container
+{
+private:
+	int index = 0;
+
+public:
+	void Push(T data)
+	{
+		data = new T[];
+	}
+};
+
 
 int main()
 {
@@ -14,12 +34,24 @@ int main()
 	// 형식을 가질 수 있는 기술에 중점을 두어 재사용성을 높일 수
 	// 있는 기능입니다.
 
-	cout << Same('A', 'A') << endl;
-	cout << Same(5, 10) << endl;
-	cout << Same(17.5f, 20.125f) << endl;
-	cout << Same("Head", "Head") << endl;
+	// cout << Same('A', 'A') << endl;
+	// cout << Same(5, 10) << endl;
+	// cout << Same(17.5f, 20.125f) << endl;
+	// cout << Same("Head", "Head") << endl;
 
+#pragma endregion
 
+#pragma region 템플릿 특수화
+	// 특정 자료형에 대해 다르게 처리하고 싶은 경우
+	// 특정한 자료형만 다른 형식으로 동작시키는 기능입니다.
+
+	 // Language programLanguage1;
+	 // Language programLanguage2;
+	 // 
+	 // programLanguage1.Initialize("Java");
+	 // programLanguage2.Initialize("Java script");
+	 // 
+	 // cout << Same(programLanguage1, programLanguage2) << endl;
 
 #pragma endregion
 

@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{E326C0FB-B167-4D0C-BF2D-7F252C442B05}|Program.vcxproj|C:\\Users\\tgahn\\Desktop\\GameClass3\\Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E326C0FB-B167-4D0C-BF2D-7F252C442B05}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E326C0FB-B167-4D0C-BF2D-7F252C442B05}|Program.vcxproj|C:\\Users\\tgahn\\Desktop\\GameClass3\\Program\\Container.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E326C0FB-B167-4D0C-BF2D-7F252C442B05}|Program.vcxproj|solutionrelative:Container.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Container.h",
+              "DocumentMoniker": "C:\\Users\\tgahn\\Desktop\\GameClass3\\Program\\Container.h",
+              "RelativeDocumentMoniker": "Container.h",
+              "ToolTip": "C:\\Users\\tgahn\\Desktop\\GameClass3\\Program\\Container.h",
+              "RelativeToolTip": "Container.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-23T10:02:16.032Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +41,7 @@
               "RelativeDocumentMoniker": "Program.cpp",
               "ToolTip": "C:\\Users\\tgahn\\Desktop\\GameClass3\\Program\\Program.cpp",
               "RelativeToolTip": "Program.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-12T08:59:57.77Z",
               "EditorCaption": ""

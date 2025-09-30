@@ -1,59 +1,50 @@
 ﻿#include "stdafx.h"
-#include <vector>
-#include <list>
+#include <stack>
+#include <queue>
 
 int main()
 {
-#pragma region 선형 컨테이너
-	// 데이터를 선형으로 저장하며, 특별한 제약이나 규칙이 없는 컨테이너입니다.
-		
-#pragma region vector container
+#pragma region 컨테이너 어댑터
+	// 기존 컨테이너의 인터페이스를 제한하여 만든 
+	// 기능이 제한되거나 변경된 컨테이너입니다.
 	
-	// vector<int> vector;
+#pragma region stack container
+
+	// stack<int> stack;
 	
-	// vector.reserve(8);
+	// stack.push(10);
+	// stack.push(20);
+	// stack.push(30);
+	// stack.push(40);
+	// stack.push(50);
 	
-	// vector.push_back(10);
-	// vector.push_back(20);
-	// vector.push_back(30);
-	// vector.push_back(40);
-	// vector.push_back(50);
-	
-	// for (int i = 0; i < vector.size(); i++)
+	// while (stack.empty() == false)
 	// {
-	// 	cout << "vector의 값 : " << vector[i] << endl;
+	// 	cout << stack.top() << endl;
+	
+	// 	stack.pop();
 	// }
-	
-	// vector.clear();
-	
-	// cout << "vector의 size 값 : " << vector.size() << endl;
-	// cout << "vector의 capacity 값 : " << vector.capacity() << endl;
 
-
+	
 
 #pragma endregion
 
-#pragma region list container
-	list<int> list;
+#pragma region queue container
+	queue<int> queue;
 
-	
-	list.push_back(20);
-	list.push_back(30);
-	
-	list.push_front(10);
-	
-	list.pop_front();
-
-	list.push_front(1);
-
-	list.remove(20);
-
-	for (const int container : list)
+	for (int i = 0; i < 5; i++)
 	{
-		cout << "list의 값 : " << container << endl;
+		queue.push(i);
 	}
-#pragma endregion
 
+	while (queue.empty())
+	{
+		cout << "queue의 값 : " << queue.front() << endl;
+
+		queue.pop();
+	}
+
+#pragma endregion
 
 #pragma endregion
 

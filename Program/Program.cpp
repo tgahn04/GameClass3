@@ -1,50 +1,33 @@
 ﻿#include "stdafx.h"
-#include <stack>
-#include <queue>
+#include <unordered_set>
 
 int main()
 {
-#pragma region 컨테이너 어댑터
-	// 기존 컨테이너의 인터페이스를 제한하여 만든 
-	// 기능이 제한되거나 변경된 컨테이너입니다.
-	
-#pragma region stack container
+#pragma region 연관 컨테이너
+	// 특정한 방식으로 데이터 저장하고 검색하는 컨테이너입니다.
 
-	// stack<int> stack;
-	
-	// stack.push(10);
-	// stack.push(20);
-	// stack.push(30);
-	// stack.push(40);
-	// stack.push(50);
-	
-	// while (stack.empty() == false)
-	// {
-	// 	cout << stack.top() << endl;
-	
-	// 	stack.pop();
-	// }
+	unordered_set<const char*> unordered_set;
 
-	
+	unordered_set.reserve(16);
 
-#pragma endregion
+	unordered_set.max_load_factor(2.0);
 
-#pragma region queue container
-	queue<int> queue;
+	unordered_set.insert("Infinity Edge");
+	unordered_set.insert("Kraken Slayer");
+	unordered_set.insert("Heartsteel");
 
-	for (int i = 0; i < 5; i++)
-	{
-		queue.push(i);
-	}
+	unordered_set.insert("Trinity Force");
+	unordered_set.insert("Luden's Tempest");
+	unordered_set.insert("Doran's Ring");
 
-	while (queue.empty())
-	{
-		cout << "queue의 값 : " << queue.front() << endl;
+	unordered_set.insert("Doran's Blade");
+	unordered_set.insert("Doran's Shield");
+	unordered_set.insert("Frozen Heart");
 
-		queue.pop();
-	}
+	unordered_set.insert("Frozen Heart");
 
-#pragma endregion
+	cout << "Load_Factor : " << unordered_set.load_factor() << endl;
+	cout << "Bucket_Count : " << unordered_set.bucket_count() << endl;
 
 #pragma endregion
 
